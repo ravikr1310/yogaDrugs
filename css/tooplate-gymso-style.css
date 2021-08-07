@@ -48,7 +48,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     --h1-font-size:         48px;
     --h2-font-size:         36px;
-    --h3-font-size:         28px;
+    --h3-font-size:         22px;
     --h4-font-size:         24px;
     --h5-font-size:         22px;
     --h6-font-size:         22px;
@@ -386,8 +386,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
     background: var(--white-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
-    padding: 1rem 2rem;
+    padding: 10px 1rem;
     position: relative;
+    margin-bottom: 8px;
   }
 
   .class-info img {
@@ -624,7 +625,29 @@ https://www.tooplate.com/view/2119-gymso-fitness
     color: var(--primary-color);
   }
 
-
+  /*---------------------------------------
+    Experience of Yoga
+  ----------------------------------------*/
+  
+  .experience .class-price{
+    position: static;
+  }
+  .mrgn-left-15px{
+    margin-left: -15px;
+  }
+  .mrgn-right-15px{
+    margin-right: -15px;
+  }
+.experience h6{
+  color: inherit;
+  font-weight: bold;
+}
+.experience .headcontent span{
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+  line-height: 1.5em;
+}
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
