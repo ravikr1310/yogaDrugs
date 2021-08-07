@@ -646,8 +646,19 @@ https://www.tooplate.com/view/2119-gymso-fitness
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
+.experience .third-colmn{
+  direction: rtl;
+}
+.experience .mb-1, .my-1 {
+  margin-bottom: .6rem!important;
+}
+.experience .class-thumb{
+  display: grid;
+  grid-auto-rows: 1fr;
+}
+
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
