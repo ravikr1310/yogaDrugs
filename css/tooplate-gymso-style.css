@@ -659,6 +659,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
   grid-auto-rows: 1fr;
 }
 
+
+/*---------------------------------------
+    About us New
+  ----------------------------------------*/
+.list-style-none{
+  list-style: none;
+}
+.padding-left-zero{
+  padding-left: 0;
+}
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
