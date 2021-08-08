@@ -173,7 +173,12 @@ https://www.tooplate.com/view/2119-gymso-fitness
     color: var(--white-color);
   }
 
-
+/*-------------------------------------------
+  Gallery
+--------------------------------------------*/
+  .class-thumb {
+    margin-bottom: 27px;
+  }
 
   /*---------------------------------------
      GENERAL               
@@ -426,7 +431,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
   /*---------------------------------------
      SCHEDULE             
   -----------------------------------------*/
-
+  .schedule.section img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
   .schedule {
     background: var(--dark-color);
   }
