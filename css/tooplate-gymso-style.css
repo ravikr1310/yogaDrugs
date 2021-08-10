@@ -375,7 +375,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .navbar-toggler .navbar-toggler-icon::after {
     top: 8px;
   }
-
   /*---------------------------------------
      HERO              
   -----------------------------------------*/
@@ -649,7 +648,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
   
   .experience .class-price{
     position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  .class-price img {
+    border-radius: 2px 2px 0 0;
+    width: 32px;
+    height: 32px;
+}
   .mrgn-left-15px{
     margin-left: -15px;
   }
